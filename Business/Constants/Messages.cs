@@ -11,7 +11,7 @@ namespace Business.Constants
         //public'ler büyük harfle private'lar küçük harfle başlanarak yazılır.
         public static string ProductAdded = "Ürün eklendi.";
         public static string ProductNameInvalid = "Ürün ismi geçersiz.";
-        internal static string MaintenanceTime = "Sistem bakımda.";
-        internal static string ProductListed = "Ürünler listelendi.";
+        public static string MaintenanceTime = "Sistem bakımda.";
+        public static string ProductsListed = "Ürünler listelendi.";
     }
 }

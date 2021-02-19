@@ -34,8 +34,8 @@ namespace WebAPI
             services.AddControllers();
             //Ýçerisinde data tutmuyorsak singleton kullanýrýz.
             //Eðer bir constructor'da IProductService istenirse oraya ProductManager new'i gönderir. 
-            services.AddSingleton<IProductService, ProductManager>();
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductService, ProductManager>();
+            //services.AddSingleton<IProductDal, EfProductDal>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

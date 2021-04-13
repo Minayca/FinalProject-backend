@@ -33,7 +33,7 @@ namespace Business.Concrete
         }
 
         //Claim
-        //[SecuredOperation("product.add, admin")]
+        [SecuredOperation("product.add, admin")]
         //validation: uyumluluk kontrolü
         [ValidationAspect(typeof(ProductValidator))]
         [CacheRemoveAspect("IProductService.Get")]
